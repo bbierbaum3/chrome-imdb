@@ -1,0 +1,16 @@
+	{
+	  "name": "IMDb Search",
+	  "description": "Add support to Chrome's omnibar to search IMDb.",
+	  "omnibox": {
+	    "keyword": "imdb"
+    },
+	  "icons": {
+	    "16": "icon.png"
+	  },
+	  "background": {
+	    "scripts": ["background.js"]
+	  },
+	  "version": "1.0",
+	  "minimum_chrome_version": "9",
+	  "manifest_version": 2
+	}
